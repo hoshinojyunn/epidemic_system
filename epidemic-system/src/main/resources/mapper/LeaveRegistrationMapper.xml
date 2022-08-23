@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yiqing.epidemicsystem.mapper.LeaveRegistrationMapper">
+
+    <resultMap id="BaseResultMap" type="com.yiqing.epidemicsystem.pojo.LeaveRegistration">
+            <id property="id" column="id" jdbcType="VARCHAR"/>
+            <id property="leaveTime" column="leave_time" jdbcType="TIMESTAMP"/>
+            <result property="temper" column="temper" jdbcType="DOUBLE"/>
+            <result property="hasMask" column="has_mask" jdbcType="BIT"/>
+            <result property="leaveReason" column="leave_reason" jdbcType="VARCHAR"/>
+            <result property="leaveAddress" column="leave_address" jdbcType="VARCHAR"/>
+            <result property="whereToGo" column="where_to_go" jdbcType="VARCHAR"/>
+            <result property="contactMember" column="contact_member" jdbcType="VARCHAR"/>
+            <result property="health" column="health" jdbcType="VARCHAR"/>
+            <result property="moreInfo" column="more_info" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,leave_time,temper,
+        has_mask,leave_reason,leave_address,
+        where_to_go,contact_member,health,
+        more_info
+    </sql>
+</mapper>

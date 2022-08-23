@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yiqing.epidemicsystem.mapper.EnterRegistrationMapper">
+
+    <resultMap id="BaseResultMap" type="com.yiqing.epidemicsystem.pojo.EnterRegistration">
+            <id property="id" column="id" jdbcType="VARCHAR"/>
+            <id property="enterTime" column="enter_time" jdbcType="TIMESTAMP"/>
+            <result property="temper" column="temper" jdbcType="DOUBLE"/>
+            <result property="hasMask" column="has_mask" jdbcType="BIT"/>
+            <result property="isEpidemicLocate" column="is_epidemic_locate" jdbcType="BIT"/>
+            <result property="health" column="health" jdbcType="VARCHAR"/>
+            <result property="moreInfo" column="more_info" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,enter_time,temper,
+        has_mask,is_epidemic_locate,health,
+        more_info
+    </sql>
+</mapper>

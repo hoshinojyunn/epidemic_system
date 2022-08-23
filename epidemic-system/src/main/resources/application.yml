@@ -1,0 +1,11 @@
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.yiqing.epidemicsystem.pojo
+spring:
+  datasource:
+    driver-class-name: com.alibaba.druid.proxy.DruidDriver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/epidemic?useSSL=false
