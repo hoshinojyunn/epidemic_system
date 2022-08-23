@@ -2,7 +2,7 @@
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.yiqing.epidemicsystem.pojo
+  type-aliases-package: com.yiqing.epidemiccommon.pojo
 spring:
   datasource:
     driver-class-name: com.alibaba.druid.proxy.DruidDriver

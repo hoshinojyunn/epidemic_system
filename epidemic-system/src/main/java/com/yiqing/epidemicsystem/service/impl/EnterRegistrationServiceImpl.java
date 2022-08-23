@@ -1,7 +1,7 @@
 package com.yiqing.epidemicsystem.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.yiqing.epidemicsystem.pojo.EnterRegistration;
+import com.yiqing.epidemiccommon.pojo.EnterRegistration;
 import com.yiqing.epidemicsystem.service.EnterRegistrationService;
 import com.yiqing.epidemicsystem.mapper.EnterRegistrationMapper;
 import org.springframework.stereotype.Service;

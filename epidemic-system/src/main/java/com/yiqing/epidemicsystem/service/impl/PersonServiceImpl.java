@@ -1,7 +1,7 @@
 package com.yiqing.epidemicsystem.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.yiqing.epidemicsystem.pojo.Person;
+import com.yiqing.epidemiccommon.pojo.Person;
 import com.yiqing.epidemicsystem.service.PersonService;
 import com.yiqing.epidemicsystem.mapper.PersonMapper;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.yiqing.epidemicsystem.pojo;
+package com.yiqing.epidemiccommon.pojo;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;

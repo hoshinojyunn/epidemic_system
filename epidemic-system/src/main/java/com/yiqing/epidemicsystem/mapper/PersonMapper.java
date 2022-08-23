@@ -1,6 +1,6 @@
 package com.yiqing.epidemicsystem.mapper;
 
-import com.yiqing.epidemicsystem.pojo.Person;
+import com.yiqing.epidemiccommon.pojo.Person;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

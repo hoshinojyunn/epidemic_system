@@ -9,13 +9,18 @@
     </parent>
 
     <artifactId>epidemic-system</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+
     <name>epidemic-system</name>
     <description>epidemic-system</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>com.yiqing</groupId>
+            <artifactId>epidemic-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>

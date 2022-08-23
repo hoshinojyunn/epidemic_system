@@ -1,6 +1,6 @@
 package com.yiqing.epidemicsystem.service;
 
-import com.yiqing.epidemicsystem.pojo.EnterRegistration;
+import com.yiqing.epidemiccommon.pojo.EnterRegistration;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

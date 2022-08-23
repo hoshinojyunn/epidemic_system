@@ -1,6 +1,6 @@
 package com.yiqing.epidemicsystem.mapper;
 
-import com.yiqing.epidemicsystem.pojo.EnterRegistration;
+import com.yiqing.epidemiccommon.pojo.EnterRegistration;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
